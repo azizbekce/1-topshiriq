@@ -1,0 +1,23 @@
+{
+  "name": "1-topshiriq",
+  "version": "1.0.0",
+  "description": "Web3 DApp for wallet connection, contract read/write, and Hardhat local deployment.",
+  "author": "azizbekce <azizbekce@gmail.com>",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "^4.3.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@walletconnect/ethereum-provider": "^2.22.4",
+    "ethers": "^6.15.0",
+    "vite": "^7.0.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {}
+}
